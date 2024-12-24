@@ -1,0 +1,22 @@
+<mvc:View xmlns:core="sap.ui.core" controllerName="learningnew.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <Panel headerText="Heading">
+    <Input type="Text" placeholder="Enter your name" width="20rem"/>
+        <ComboBox selectedItemId="Type">
+        <core:Item text="done"/>
+    <core:Item text="Heads"/>
+    </ComboBox>
+    <Select required="true" name="myselect">
+    <items>
+    <core:Item text="done"/>
+    <core:Item text="done1"/>
+    </items>
+    </Select>
+    <Button text="ok" press="onOK"/>
+    </Panel>
+    </content>
+    </Page>
+</mvc:View>
